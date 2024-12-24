@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Decision Tree</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Plan Your Perfect Trip</h1>
+    <form id="decision-form">
+      <label for="location">Do you prefer the mountains or the beach?</label>
+      <select id="location">
+        <option value="mountains">Mountains</option>
+        <option value="beach">Beach</option>
+      </select>
+
+      <label for="adventure">Are you looking for adventure or relaxation?</label>
+      <select id="adventure">
+        <option value="adventure">Adventure</option>
+        <option value="relaxation">Relaxation</option>
+      </select>
+
+      <label for="budget">What’s your budget?</label>
+      <select id="budget">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+
+      <button type="button" id="submit-button">Get Recommendation</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
