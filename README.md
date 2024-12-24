@@ -20,4 +20,16 @@ This project is a simple interactive decision tree that guides users through a s
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript 
+- JavaScript
+
+**Research**
+ - Explored JavaScript techniques for dynamically generating text based on user inputs.
+ - Reviewed CSS animation techniques to enhance UI interactivity.
+ - Studied responsive design principles to ensure compatibility across devices.
+
+**Improvements**
+ - Add more detailed and diversified recommendations based on additional user inputs.
+ - Use local storage to save the user's preferences for future sessions.
+ - Implement more advanced animations or transitions.
+ - Refactor the code to use a lightweight JavaScript framework (e.g., Vue.js or React) for better scalability.
+ - Extend the project to include an API for fetching dynamic travel recommendations.
